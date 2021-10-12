@@ -1,0 +1,928 @@
+/* only for steps section  */
+@media only screen and (max-width: 1550px) {
+  /* steps section start  */
+
+
+.step_box_content_holder p{
+
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.step_box_content_holder img{
+    height: 140px;
+    width: auto ;
+}
+
+.element-1-to-element-2 {
+    position: absolute;
+    left: 143px;
+    top: 203px;
+    height: 250px;
+    width: 1px;
+    background: #144C64;
+}
+.element-4-to-element-5 {
+    position: absolute;
+    right: 240px;
+    top: 203px;
+    height: 250px;
+    width: 1px;
+    background: #144C64;
+}
+.element-2-to-element-3 {
+    position: absolute;
+    left: calc(-5% + 250px);
+    bottom: 140px;
+    width: calc(50% - 350px);
+    height: 140px;
+}
+
+.element-2-to-element-3 img {
+    width: 100%;
+    height: 100%;
+}
+.element-3-to-element-4 {
+    position: absolute;
+    right:320px;
+    top: 98px;
+    width: calc(50% - 350px);
+    height: 100px;
+}
+
+.element-3-to-element-4 img {
+    width: 100%;
+    height: 100%;
+}
+/* steps section end */
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .desktop_ellipse_27,.desktop_ellipse_28{
+        display: none;
+    }
+    /* navigation and section 1 start  */
+    .custom_nav_link{
+        
+        padding-left: 18px;
+        padding-right: 18px;
+        
+    }
+    .tell_me_more{
+        padding: 12px 18px;
+        margin-left: 15px;
+    }
+    .custom_navbar{
+        
+        padding: 60px 55px;
+    }
+    .section_1{
+        padding: 18px 55px;
+    }
+    .about_us_section{
+        padding: 60px 55px;
+        margin-top: -60px;
+    }
+    .section_1 h1{
+        font-size: 35px;
+        line-height: 40px;
+  
+    }
+
+    .section_1 p{
+        font-size: 16px;
+        line-height: 18px;   
+    
+    }
+
+    /* navigation and section 1 end  */
+
+    /* about us section start  */
+    .about_us_r1{
+        padding-left: 35px;
+    }
+    .about_us_r1c1 img,.about_us_r2c2 img{
+        width: 180px;
+        height: 196px;
+        object-fit: cover;
+        border-radius: 14px;
+    }
+    .about_us_r1c2 img,.about_us_r2c1 img{
+        width: 213px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 14px;
+    }
+    .about_us_right_holder h1{
+
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .about_us_right_holder p{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 54px;
+    }
+
+    /* about us section end */
+
+    /* section 3 start  */
+    .section_3{
+        padding-right:55px;
+        padding-left:55px;
+    }
+    .section_3 p{
+        
+        font-size: 16px;
+        line-height: 18px;
+    
+    }
+    .section_3 h1{
+        font-size: 35px;
+        line-height: 40px;
+
+    }
+
+    .desktop_ellipse_15{
+       
+        top: 86rem;
+    }
+    .desktop_ellipse_16{
+       
+        top: 85rem;
+
+    }
+    .desktop_ellipse_17{ 
+        top: 83rem;
+
+    }
+    /* section 3 end */
+
+    /* steps section start  */
+    .steps_section{
+        padding: 87px 55px;
+    }
+    /* steps section end */
+
+    /* features section start  */
+    .talk_to_doctor_section{
+        padding: 100px 55px;
+    }
+    .feature_heading h1{
+
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 34px;
+    }
+
+    .feature_title{
+        font-size: 18px;
+        line-height: 20px;
+        width: 175px;
+    }
+    .features_left_div{
+        padding-top: 36px;
+
+    }
+    .features_left_div p:last-child{
+        margin-bottom: 53px;    
+    }
+    .feature_l1_img{
+        height: 61px;
+        width: 61px;
+        margin-bottom: 37px;    
+    }
+    .feature_l2_img{
+        width: 86px;
+        height: 63px;
+        margin-top: 96px;
+        margin-bottom: 55px;    
+    }
+    .features_right_div{
+        padding-top: 51px;
+    }
+    .feature_r1_img{
+        height: 75px;
+        width: 59px;
+        margin-top: 47px;
+        margin-bottom: 43px;
+    }
+    .feature_r2_img{
+        height: 62px;
+        width: 62px;
+        margin-top: 37px;
+        margin-bottom: 31px;
+    }
+    .features_right_div p:last-child{
+        margin-bottom: 33px;    
+    }
+    /* features section end */
+
+
+    /* notification section start  */
+    .notification_section{
+        padding: 74px 55px 74px 0px;             
+    }
+    .notification_section h1{
+        
+        font-size: 40px;
+        line-height: 60px;
+        
+    }
+    /* notification section end */
+
+
+    /* footer section start  */
+    .footer{
+        padding: 0 51px 40px 51px;
+        
+    }
+    /* footer section end */
+
+    
+}
+
+/* ===================================================================
+===================================md to sm===========================
+======================================================================*/
+
+@media only screen and (max-width: 992px) {
+
+    /* navigation and section 1 start  */
+
+    .custom_nav_list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .section_1{
+        padding-bottom: 0px;
+    }
+    .section_1 .heading1{
+        padding-bottom: 0;
+    
+    }
+    .section_1 img{
+        margin-top: -150px;
+        
+        height: auto;
+        width: 140%;
+        z-index: -50;
+    }
+    /* navigation and section 1 end  */
+    
+   /* about us section start  */
+
+   
+    
+    .about_us_right_holder h1{
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 66px;
+        margin-bottom: 48px;
+    }
+    .about_us_section{
+        position: relative;
+        margin-top: -50px;
+        padding: 60px 55px;
+    
+    }
+    .about_us_right_holder{
+        z-index: 10;
+        padding: 0;
+        width: 100%;
+    }
+    .about_us_left_holder{
+        position: absolute;
+        top: 400;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+    }
+    .about_us_left_holder img{
+        width: 50%;
+        height: auto;
+        opacity: 0.3;
+        
+    }
+    .about_us_left_holder{
+       
+        top: 150px;
+ 
+    }
+    .section_3{
+        padding-top: 100px;
+    }
+    .section_3_background{
+        position: absolute;
+ 
+        top: 100px;
+    }
+    /* about us section end */
+
+    
+
+/* steps section start  */
+
+.steps_section{
+    padding: 0px 23px;
+}
+
+.steps_holder{
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #144C64;
+    margin: auto;
+    width: 50%;
+
+}
+.step_box{
+    display: flex;
+}
+
+
+.step_box_content_holder{
+    position: relative;
+    display: flex;
+}
+
+.step_box_content_holder p{
+
+    font-size: 18px;
+    line-height: 22px;
+}
+.step_1 p{
+    left: 71%;
+    bottom: 20%;
+}
+.step_2 p{
+    left: 64%;
+    bottom: 20%;
+}
+.step_3 p{
+    left: 65%;
+    bottom: 15%;
+}
+.step_4 p{
+    left: 57%;
+    bottom: 15%;
+}
+.step_5 p{
+    left: 65%;
+    bottom: -20%;
+    width: 300px;
+}
+.step_box{
+    position: relative;
+}
+.step_box_content_holder img{
+    height: 140px;
+    width: auto ;
+}
+.step_1{
+    left: 0;
+}
+.step_2{
+    left: 0;
+    bottom: 0;
+}
+.step_3{
+    left: -2.7%;
+}
+.step_4{
+    left: 4%;
+}
+.step_5{
+    left: -2.5%;
+}
+
+.element-1-to-element-2 {
+    display: none;
+}
+.element-4-to-element-5 {
+    display: none;
+}
+.element-2-to-element-3 {
+    display: none;
+}
+
+.element-2-to-element-3 img {
+    display: none;
+}
+.element-3-to-element-4 {
+   display: none;
+}
+.element-3-to-element-4 img {
+    display: none;
+}
+
+
+/* notification section start  */
+
+.notification_section h1{
+    width: 400px;
+    font-size: 36px;
+    line-height: 44px;
+    
+}
+/* notification section end */
+    
+
+/* footer section start  */
+.footer_up_button,.rights_reserved{
+    display: none;
+}
+.footer_r1_l_links ul,.footer_r1_l{
+   flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer_r1_l img{
+    width: 150px;
+
+}
+.footer_social{
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left:calc(100% - 202px);
+    padding-bottom: 30px;
+}
+ 
+/* footer section end */
+}
+
+/* ====================================================================
+===========================sm to xs ====================================
+======================================================================== */
+@media only screen and (max-width: 767px) {
+    .section_1 img{
+        margin-top: -130px;
+        
+        height: auto;
+        width: 140%;
+        z-index: -50;
+    }
+    .section_3{
+        padding-top: 50px;
+    }
+    
+.steps_section{
+    padding: 0px 55px;
+}
+.steps_section h1{
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+}
+.steps_holder{   
+    width: 100%;
+
+}
+.step_1 p{
+    left: 71%;
+    bottom: 20%;
+}
+.step_2 p{
+    left: 64%;
+    bottom: 20%;
+}
+.step_3 p{
+    left: 65%;
+    bottom: 10%;
+}
+.step_4 p{
+    left: 55%;
+    bottom: 14%;
+}
+.step_5 p{
+    left: 63%;
+    bottom: -20%;
+    width: 300px;
+}
+.step_3{
+    left: -2.3%;
+}
+.step_4{
+    left: 3.5%;
+}
+.step_5{
+    left:-1.5%
+}
+.notification_small_top{
+    padding-left: 55px;
+}
+}
+
+
+
+/* =========================================================================
+=========================== below sm =======================================
+============================================================================ */
+
+@media only screen and (max-width:576px) {
+
+    /* small screen background */
+
+    .desktop_background{
+        display: none;
+    }
+    .mobile_background{
+        display: block;
+    }
+    .mobile_ellipse_27{
+        position: absolute;
+        width: 1601px;
+        height: 200px;
+        left: -434px;
+        top: 1270px;
+        
+        background: radial-gradient(40.34% 40.34% at 50% 50%, rgba(20, 76, 100, 0.37) 0%, rgba(0, 224, 255, 0) 100%);
+        opacity: 0.5;
+    }
+    .mobile_ellipse_27_b{
+        position: absolute;
+        width: 431px;
+        height: 134px;
+        left: -132px;
+        top: 1388px;
+        
+        background: radial-gradient(40.34% 40.34% at 50% 50%, rgba(202, 10, 183, 0.355) 0%, rgba(255, 0, 107, 0) 100%);
+        opacity: 0.3;
+    }
+    .mobile_ellipse_27_c{
+        position: absolute;
+        width: 1098px;
+        height: 773px;
+        left: -200px;
+        top: 1690px;
+        
+        background: radial-gradient(40.34% 40.34% at 50% 50%, rgba(20, 76, 100, 0.34) 0%, rgba(0, 224, 255, 0) 100%);
+        opacity: 0.5;
+        transform: rotate(-90deg)
+    }
+    .mobile_ellipse_28{
+        position: absolute;
+        width: 576px;
+        height: 198px;
+        left: -264px;
+        top: 15px;
+        
+        background: radial-gradient(40.34% 40.34% at 50% 50%, rgba(20, 76, 100, 0.5) 0%, rgba(0, 224, 255, 0) 100%);
+        opacity: 0.3;
+    }
+    .mobile_ellipse_29{
+        position: absolute;
+        width: 262px;
+        height: 114px;
+        left: -89px;
+        top: -50px;
+
+        background: radial-gradient(40.34% 40.34% at 50% 50%, rgba(202, 10, 183, 0.355) 0%, rgba(255, 0, 107, 0) 100%);
+        opacity: 0.3;
+    }
+    .mobile_ellipse_29_b{
+        position: absolute;
+        width: 476px;
+        height: 148px;
+        left: 53px;
+        top: 1226px;
+        
+        background: radial-gradient(40.34% 40.34% at 50% 50%, rgba(202, 10, 183, 0.355) 0%, rgba(255, 0, 107, 0) 100%);
+        opacity: 0.3;
+    }
+    .mobile_ellipse_30{
+        position: absolute;
+        width: 365px;
+        height: 223px;
+        left: 156px;
+        top: 22px;
+        
+        background: radial-gradient(40.34% 40.34% at 50% 50%, rgba(202, 10, 183, 0.355) 0%, rgba(255, 0, 107, 0) 100%);
+        opacity: 0.3;
+    }
+    .mobile_ellipse_31{
+        position: absolute;
+        width: 594px;
+        height: 204px;
+        left: 28px;
+        top: -58px;
+        
+        background: radial-gradient(40.34% 40.34% at 50% 50%, rgba(10, 190, 202, 0.355) 0%, rgba(0, 224, 255, 0) 100%);
+        opacity: 0.5;
+    }
+    .mobile_ellipse_35{
+        position: absolute;
+        width: 407px;
+        height: 140px;
+        left: -185px;
+        top: 781px;
+        
+        background: radial-gradient(40.34% 40.34% at 50% 50%, rgba(10, 190, 202, 0.355) 0%, rgba(0, 224, 255, 0) 100%);
+        opacity: 0.5;
+    }
+    .mobile_ellipse_35_b{
+        position: absolute;
+        width: 509px;
+        height: 214px;
+        left: -157px;
+        top: 2489px;
+        
+        background: radial-gradient(40.34% 40.34% at 50% 50%, rgba(10, 190, 202, 0.355) 0%, rgba(0, 224, 255, 0) 100%);
+        opacity: 0.5;
+    }
+    .mobile_ellipse_36{
+        position: absolute;
+        width: 343px;
+        height: 130px;
+        left: -64px;
+        top: 2608px;
+        
+        background: radial-gradient(40.34% 40.34% at 50% 50%, rgba(202, 10, 183, 0.355) 0%, rgba(255, 0, 107, 0) 100%);
+        opacity: 0.3;
+    }
+    /* small screen background end  */
+
+
+    /* navigation and section 1 start  */
+
+    /* ----------nav bar ---------*/
+    .custom_navbar {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .custom_nav_link{
+        
+        padding-left: 18px;
+        padding-right: 18px;
+        font-size:12px;   
+        line-height: 15px;
+        
+    }
+    .tell_me_more{
+        padding: 10px;
+        font-size:12px;   
+        line-height: 15px;
+        width: 120px;
+        height: 35px;
+        transition: all 0.2s ease-in-out;
+        position: relative;
+    }
+    .custom_navbar{
+        padding: 24px 23px;
+    }
+    .nav_logo{
+        height: 24px;
+        width: 107px;
+        object-fit: contain;
+    }
+    /* ------navbar end-------- */
+    .section_1,.section_3{
+        padding: 18px 23px;
+    }
+    .section_1 img{
+        margin-top: -135px;
+        height: auto;
+        width: 140%;
+        z-index: -50;
+    }
+    .section_1 h1{
+        font-size: 40px;
+        line-height: 48px;
+
+    }
+
+    .section_1 p{
+        font-size: 12px;
+        line-height: 15px;  
+        margin-bottom: 30px;   
+    
+    }
+
+    .about_us_left_holder{
+        align-items: flex-end;
+    }
+    .about_us_left_holder img{
+        width: 70%;
+        margin-right: 23px;
+    }
+    .about_us_left_holder{
+        top: 150px;
+
+    }
+    /* navigation and section 1 end  */
+
+    /* about us start  */
+    .about_us_right_holder h1{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 48px;
+    }
+    .about_us_right_holder p{
+        font-weight: 600;
+        text-align: justify;
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 54px;
+    }
+    .about_us_section{
+        padding-right:23px;
+        padding-left:23px;
+    }
+    /* about us end */
+
+     /* section 3 start  */
+     .section_3 p{
+        
+        font-size: 12px;
+        line-height: 15px;
+    
+    }
+    .section_3_background{
+        top: 8px;
+    }
+    .section_3{
+        padding-top: 0px;
+        padding-right:23px;
+        padding-left:23px;
+    }
+    /* section 3 end */
+
+    /* steps section start  */
+    .steps_section{
+        padding: 0px 23px;
+    }
+    .steps_section h1{
+        font-size: 35px;
+        line-height: 48px;
+        text-align: left;
+    }
+    .step_box_content_holder img{
+        height: 86px;
+        margin-bottom: 45px;
+    }
+    .step_box_content_holder p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+  
+
+    .step_1 p{
+        left: 73%;
+        bottom: 40%;
+    }
+    .step_2 p{
+        left: 64%;
+        bottom: 40%;
+    }
+    .step_3 p{
+        left: 65%;
+        bottom: 20%;
+    }
+    .step_4 p{
+        left: 58%;
+        bottom: 14%;
+    }
+    .step_5 p{
+        left: 65%;
+        bottom: 0%;
+        width: 300px;
+    }
+    .step_1{
+        left: 0;
+    }
+    .step_2{
+        left: 1%;
+        bottom: 0;
+    }
+    .step_3{
+        left: -0.5%;
+    }
+    .step_4{
+        left: 4%;
+    }
+    .step_5{
+        left:-0.5%
+    }
+    
+    /* steps section end */
+
+    /* features section start  */
+    .talk_to_doctor_section{
+        padding: 100px 23px;
+    }
+    .feature_heading h1{
+        margin-top: 0;
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 34px;
+    }
+
+    .feature_title{
+        font-size: 14px;
+        line-height: 17px;
+        width: 175px;
+    }
+    .features_left_div{
+        padding-top: 26px;
+
+    }
+    .features_left_div p:last-child{
+        margin-bottom: 53px;    
+    }
+    .feature_l1_img{
+        height: 51px;
+        width: 51px;
+        margin-bottom: 27px;    
+    }
+    .feature_l2_img{
+        width: 76px;
+        height: 53px;
+        margin-top: 76px;
+        margin-bottom: 35px;    
+    }
+    .features_right_div{
+        padding-top: 51px;
+    }
+    .feature_r1_img{
+        height: 65px;
+        width: 49px;
+        margin-top: 37px;
+        margin-bottom: 33px;
+    }
+    .feature_r2_img{
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-bottom: 21px;
+    }
+    .features_right_div p:last-child{
+        margin-bottom: 33px;    
+    }
+    /* features section end */
+
+
+    /* notification section start  */
+    .notification_section{
+        padding: 17px 23px 17px 0px;             
+    }
+    .notification_small_top{
+        padding-left: 23px;
+    }
+
+    .notification_section form {
+        margin-top: 63px;
+    }
+    .notification_section form label {
+
+        font-size: 12px;
+        
+    }
+
+    .notification_section form button {
+        margin-top: 39px;
+        margin-bottom: 37px;
+    }
+    /* notification section end */ 
+    
+    
+    /* footer section start  */
+    .footer{
+        padding: 0 23px 64px 23px;
+        
+    }
+
+    
+    .footer_r1_l img{
+        padding: 42px 0 19px 0;
+        width: 105px;
+    
+    }
+    .footer_privacy_icons ul li{
+        padding-left: 38px;
+    }
+    .footer_privacy_icons ul li:first-child{
+        padding-left: 0;
+    }
+    .footer_privacy_icons ul li a img{
+        height: 16px;
+        width: auto;
+    }
+    .footer_social{
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-left:calc(100% - 110px);
+        padding-bottom: 30px;
+    }
+
+    /* footer section end */
+
+}
